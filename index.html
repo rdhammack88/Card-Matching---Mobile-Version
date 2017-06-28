@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card Matching</title>
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <meta name="card matching game" content="An online card matching game">
+        <!--[if IE]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js></script>
+        <![endif]-->
+    </head>
+    <body>
+        <heading>
+            <h1>Card Matching</h1>
+            <hr>
+        <!--<button id="bttn"><img src="images/a.png" alt="" class="bttn"></button>-->
+        </heading>
 
+        <!-- Game Board -->
+        <div id="container">
+
+
+<!--
+            <div id="card1" class="cards"><img src="images/a.png" alt=""></div>
+            <div id="card2" class="cards"><img src="images/b.png" alt=""></div>
+            <div id="card3" class="cards"><img src="images/c.png" alt=""></div>
+            <div id="card4" class="cards"><img src="images/d.png" alt=""></div>
+            <div id="card5" class="cards"><img src="images/e.png" alt=""></div>
+            <div id="card6" class="cards"><img src="images/f.png" alt=""></div>
+            <div id="card7" class="cards"><img src="images/x.png" alt=""></div>
+            <div id="card8" class="cards"><img src="images/y.png" alt=""></div>
+            <div id="card9" class="cards"><img src="images/z.png" alt=""></div>
+            <div id="card10" class="cards"><img src="images/z.png" alt=""></div>
+            <div id="card11" class="cards"><img src="images/y.png" alt=""></div>
+            <div id="card12" class="cards"><img src="images/x.png" alt=""></div>
+            <div id="card13" class="cards"><img src="images/f.png" alt=""></div>
+            <div id="card14" class="cards"><img src="images/e.png" alt=""></div>
+            <div id="card15" class="cards"><img src="images/d.png" alt=""></div>
+            <div id="card16" class="cards"><img src="images/c.png" alt=""></div>
+            <div id="card17" class="cards"><img src="images/b.png" alt=""></div>
+            <div id="card18" class="cards"><img src="images/a.png" alt=""></div>
+-->
+
+            <button class="cards" id="card1"></button>
+            <button class="cards" id="card2"></button>
+            <button class="cards" id="card3"></button>
+            <button class="cards" id="card4"></button>
+            <button class="cards" id="card5"></button>
+            <button class="cards" id="card6"></button>
+            <button class="cards" id="card7"></button>
+            <button class="cards" id="card8"></button>
+            <button class="cards" id="card9"></button>
+            <button class="cards" id="card10"></button>
+            <button class="cards" id="card11"></button>
+            <button class="cards" id="card12"></button>
+            <button class="cards" id="card13"></button>
+            <button class="cards" id="card14"></button>
+            <button class="cards" id="card15"></button>
+            <button class="cards" id="card16"></button>
+            <button class="cards" id="card17"></button>
+            <button class="cards" id="card18"></button>
+
+<!--
+            <button class="cards"><img src="images/a.png" id="card1" alt=""></button>
+            <button class="cards"><img src="images/b.png" id="card2" alt=""></button>
+            <button class="cards"><img src="images/c.png" id="card3" alt=""></button>
+            <button class="cards"><img src="images/d.png" id="card4" alt=""></button>
+            <button class="cards"><img src="images/e.png" id="card5" alt=""></button>
+            <button class="cards"><img src="images/f.png" id="card6" alt=""></button>
+            <button class="cards"><img src="images/x.png" id="card7" alt=""></button>
+            <button class="cards"><img src="images/y.png" id="card8" alt=""></button>
+            <button class="cards"><img src="images/z.png" id="card9" alt=""></button>
+            <button class="cards"><img src="images/z.png" id="card10" alt=""></button>
+            <button class="cards"><img src="images/y.png" id="card11" alt=""></button>
+            <button class="cards"><img src="images/x.png" id="card12" alt=""></button>
+            <button class="cards"><img src="images/f.png" id="card13" alt=""></button>
+            <button class="cards"><img src="images/e.png" id="card14" alt=""></button>
+            <button class="cards"><img src="images/d.png" id="card15" alt=""></button>
+            <button class="cards"><img src="images/c.png" id="card16" alt=""></button>
+            <button class="cards"><img src="images/b.png" id="card17" alt=""></button>
+            <button class="cards"><img src="images/a.png" id="card18" alt=""></button>
+-->
+
+<!--
+            <input type="button" id="card1" class="cards" value= url('images/a.png')>
+            <input type="button" id="card2" class="cards">
+            <input type="button" id="card3" class="cards">
+            <input type="button" id="card4" class="cards">
+            <input type="button" id="card5" class="cards">
+            <input type="button" id="card6" class="cards">
+            <input type="button" id="card7" class="cards">
+            <input type="button" id="card8" class="cards">
+            <input type="button" id="card9" class="cards">
+            <input type="button" id="card10" class="cards">
+            <input type="button" id="card11" class="cards">
+            <input type="button" id="card12" class="cards">
+            <input type="button" id="card13" class="cards">
+            <input type="button" id="card14" class="cards">
+            <input type="button" id="card15" class="cards">
+            <input type="button" id="card16" class="cards">
+            <input type="button" id="card17" class="cards">
+            <input type="button" id="card18" class="cards">
+-->
+
+            <!-- Reset Button -->
+            <button id="reset">Reset</button>
+        </div> <!--#container-->
+
+        <!-- Load the CDN of jQueryfirst -->
+        <script
+          src="https://code.jquery.com/jquery-2.1.4.min.js"
+          integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
+          crossorigin="anonymous"></script>
+
+        <!-- If CDN fails to load, serve up the local jQuery -->
+        <script type="text/javascript">
+            window.jQuery || document.write('<script src="scripts/jquery-3.2.1.js"></script');
+        </script>
+
+        <!-- Custom Scripts -->
+        <script type="text/javascript" src="scripts/scripts.js"></script>
+    </body>
+</html>
