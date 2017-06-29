@@ -35,9 +35,9 @@ hr {
     vertical-align: top;
     width: 14%;
     min-width: 40px;
-    height: 150px;
+    height: 25%;
     min-height: 100px;
-    max-height: 180px;
+    max-height: 110px;
 /*    max-height: 250px;*/
     margin: 4px 4px 4px 8px;
     padding: 0;
